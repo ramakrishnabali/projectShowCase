@@ -1,0 +1,15 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ERR_PNPM_CANNOT_REMOVE_MISSING_DEPS",
+    "hint": "Available dependencies: babel-plugin-styled-components, eslint-config-airbnb, eslint-config-prettier, eslint-plugin-prettier, husky, lint-staged, npm-run-all, prettier, react-scripts, @craco/craco, @testing-library/jest-dom, @testing-library/react, @testing-library/user-event, chalk, msw, react, react-dom, react-loader-spinner, styled-components",
+    "err": {
+      "name": "pnpm",
+      "message": "Cannot remove 'react-router-dom': no such dependency found",
+      "code": "ERR_PNPM_CANNOT_REMOVE_MISSING_DEPS",
+      "stack": "pnpm: Cannot remove 'react-router-dom': no such dependency found\n    at Object.handler (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:123216:15)\n    at async /usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:182617:21\n    at async run (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:182591:34)\n    at async runPnpm (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:182810:5)\n    at async /usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:182802:7"
+    }
+  }
+}
