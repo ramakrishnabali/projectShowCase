@@ -4,8 +4,6 @@ import Loader from 'react-loader-spinner'
 
 import './App.css'
 
-//  This is the list (static data) used in the application. You can move it to any component if needed.
-
 const categoriesList = [
   {id: 'ALL', displayText: 'All'},
   {id: 'STATIC', displayText: 'Static'},
@@ -20,7 +18,6 @@ const status = {
   failure: 'FAILURE',
 }
 
-// Replace your code here
 const App = () => {
   const [categorie, setCategorie] = useState({
     categorieData: [],
